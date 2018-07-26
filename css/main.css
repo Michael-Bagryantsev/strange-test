@@ -1,0 +1,17 @@
+div {
+	float: left;
+	width: 33%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+img {
+	display: inline;
+	max-width: 100%;
+}
+
+@media only screen and (max-width:480px) {
+	div {
+		width: 100%;
+	}
+}
